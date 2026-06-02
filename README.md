@@ -9,3 +9,10 @@ Each file is a machine learning model. The models with _spatial are models that 
 Dataset used: https://www.kaggle.com/datasets/fantineh/next-day-wildfire-spread/data?select=next_day_wildfire_spread_eval_00.tfrecord from the paper Next Day Wildfire Spread: A Machine Learning Data Set to Predict Wildfire Spreading from Remote-Sensing Data (Huot, et al.)
 
 To run a model, set the file_path variable in the file to your dataset's file path, then run the code. 
+
+## Authors ##
+Althea Wu
+
+## Acknowledgements ##
+Thank you to Dr. Vandana Janeja and Rhoda Nankabirwa for their guidance while I worked on this project. 
+Partially inspired by the paper Next Day Wildfire Spread: A Machine Learning Data Set to Predict Wildfire Spreading from Remote-Sensing Data (Huot, et al.) (https://arxiv.org/pdf/2112.02447)
