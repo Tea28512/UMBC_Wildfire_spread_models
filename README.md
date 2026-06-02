@@ -1,7 +1,9 @@
-Each file is a machine learning model. The models with _spatial are models that use spatial context in a 3x3 neighboorhood around each pixel. The models predict the wildfire spread from one day to the next day. The models are from Scikit-learn, and the ensemble model is made out of a logistic regression model and random forest model, with a logistic regression model as the final predictor.
+The goal of the project was to compare machine learning models in their prediction of next-day wildfire. Wildfires are becoming an increasing concern as wildfire season gets longer and fires are more fierce. Prediction of wildfires is important in aiding people who are potentially in danger from a wildfire.
 
-Each of the model files also have code to 
+Each file is a machine learning model. The models with _spatial are models that use spatial context in a 3x3 neighboorhood around each pixel.  The models are from Scikit-learn, and the ensemble model is made out of a logistic regression model and random forest model, with a logistic regression model as the final predictor.
+
+Each of the model files also have code to analyze each model and visualize the predictions.
 
 Dataset used: https://www.kaggle.com/datasets/fantineh/next-day-wildfire-spread/data?select=next_day_wildfire_spread_eval_00.tfrecord from the paper Next Day Wildfire Spread: A Machine Learning Data Set to Predict Wildfire Spreading from Remote-Sensing Data (Huot, et al.)
 
-To run a model, paste the file path of your dataset, then run the code. 
+To run a model, set the file_path variable in the file to your dataset's file path, then run the code. 
